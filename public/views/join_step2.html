@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>한솥도시락 > 회원가입 > 02.개인정보 입력</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="../css/ui.common.css">
+    <link rel="stylesheet" type="text/css" href="../css/ui.pop.css">
+    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/ui.join.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .file_input {
+            font-size:45px;
+            position:absolute;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+            margin:0;
+            padding:0;
+            border:0;
+            z-index:-1;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            -ms-filter: "alpha(opacity=0)";
+            -khtml-opacity:0;
+            -moz-opacity:0;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="hd_flex">
+                <div class="area_flex" style="display: block;">
+                    <ul>
+                        <li><a href="/login">로그인</a></li>
+                        <li><a href="/join/join_step_01">회원가입</a></li>
+                        <li class="sns_insta"><a href="/"><span class="blind">instagram</span></a></li>
+                        <li class="sns_face"><a href="/"><span class="blind">facebook</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hd_fixed" style="display: block;">
+                <div class="hd_content">
+                    <div class="logo">
+                        <h1><a href="/"><span class="blind">한솥</span></a></h1>
+                    </div>
+                    <section id="gnb" class="area_gnb mo_version">
+                        <!-- 모바일 로그인/회원가입 -->
+                        <div class="m_area_flex">
+                            <ul>
+                                <li><a href="/login">로그인</a></li>
+                                <li><a href="/join/join_step_01">회원가입</a></li>
+                            </ul>
+                        </div>
+                        <div class="gnb_menu">
+                            <ul>
+                                <li class="dp1">
+                                    <p class="dp1_tit"><a href="">BRAND</a></p>
+                                    <div class="dp2">
+                                        <ul>
+                                            <li><a href="">브랜드 스토리</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dp1">
+                                    <p class="dp1_tit"><a href="">ESG</a></p>
+                                    <div class="dp2">
+                                        <ul>
+                                            <li><a href="">ESG경영이란?</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dp1">
+                                    <p class="dp1_tit"><a href="/menu">MENU</a></p>
+                                    <div class="dp2">
+                                        <ul>
+                                            <li><a href="/menu">전체메뉴</a></li>
+                                            <li><a href="">식재료 이야기</a></li>
+                                            <li><a href="">페루찬차마요커피</a></li>
+                                            <li><a href="">단체 주문</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dp1">
+                                    <p class="dp1_tit"><a href="">STORE</a></p>
+                                    <div class="dp2">
+                                        <ul>
+                                            <li><a href="">주변점포찾기</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dp1">
+                                    <p class="dp1_tit"><a href="">EVENT</a></p>
+                                    <div class="dp2">
+                                        <ul>
+                                            <li><a href="">이 달의 이벤트</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dp1">
+                                    <p class="dp1_tit"><a href="">FRANCHISE</a></p>
+                                    <div class="dp2">
+                                        <ul>
+                                            <li><a href="">Why 한솥 가맹점</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dp1">
+                                    <p class="dp1_tit"><a href="">HANSOT</a></p>
+                                    <div class="dp2">
+                                        <ul>
+                                            <li><a href="">한솥의 약속</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </section>
+                    <div class="bg_layer" style="opacity: 0; height: 0px;"></div>
+                    <div class="mobile_menu_btn">
+                        <div class="hamburger" id="hamburger-6">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="container" class="sub_page">
+            <div class="content join">
+                <section class="join_step_03 mo_version">
+                    <div class="join_step_wrap">
+                        <h2 class="h2_tit h2_01">회원가입</h2>
+                        <div class="join_step_cont cont_st01">
+                            <!-- join left -->
+                            <div class="join_tit">
+                                <h3 class="h3_tit">개인정보 입력</h3>
+                                <p>
+                                    <span class="s_block"><em class="emphasis">환영합니다.</em></span>
+                                    <span class="s_block">간단한 개인정보를 입력해주시면</span>
+                                    <span class="s_block">회원가입이 완료됩니다.</span>
+                                </p>
+                            </div>
+                            <div class="join_sub">
+                                <form action="/" id="joinForm" name="joinForm" method="post">
+
+                                </form>
+                            </div>
+                            <!-- join right -->
+                            <div class="join_sub"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
